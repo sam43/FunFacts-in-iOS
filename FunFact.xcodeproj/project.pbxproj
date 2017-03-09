@@ -13,6 +13,7 @@
 		CBFA55331E71710000367B2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFA55321E71710000367B2C /* Assets.xcassets */; };
 		CBFA55361E71710000367B2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFA55341E71710000367B2C /* LaunchScreen.storyboard */; };
 		CBFA553E1E717BF800367B2C /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA553D1E717BF800367B2C /* FactModel.swift */; };
+		CBFA55401E71836E00367B2C /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFA553F1E71836E00367B2C /* ColorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CBFA55351E71710000367B2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBFA55371E71710000367B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBFA553D1E717BF800367B2C /* FactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		CBFA553F1E71836E00367B2C /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				CBFA552D1E71710000367B2C /* ViewController.swift */,
 				CBFA552F1E71710000367B2C /* Main.storyboard */,
 				CBFA553D1E717BF800367B2C /* FactModel.swift */,
+				CBFA553F1E71836E00367B2C /* ColorModel.swift */,
 				CBFA55321E71710000367B2C /* Assets.xcassets */,
 				CBFA55341E71710000367B2C /* LaunchScreen.storyboard */,
 				CBFA55371E71710000367B2C /* Info.plist */,
@@ -142,6 +145,7 @@
 				CBFA553E1E717BF800367B2C /* FactModel.swift in Sources */,
 				CBFA552E1E71710000367B2C /* ViewController.swift in Sources */,
 				CBFA552C1E71710000367B2C /* AppDelegate.swift in Sources */,
+				CBFA55401E71836E00367B2C /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

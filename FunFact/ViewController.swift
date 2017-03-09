@@ -13,10 +13,30 @@ class ViewController: UIViewController {
 
 
     @IBOutlet weak var funFactlable: UILabel!
-    @IBAction func buttonTapped(_ sender: Any) {
-        funFactlable.text = "Light takes 8 minutes to reach!"
-    }
     
+    @IBOutlet weak var button: UIButton!
+    
+    @IBAction func buttonTap(_ sender: Any) {
+        funFactlable.text = FactModel().getFact()
+        //funFactlable.backgroundColor = ColorModel().getColor()  // changes color of text area
+        
+        //get the color
+        
+        let colRef = ColorModel()
+        
+        //get random color
+        let color = colRef.getColor()
+        
+        //set background color
+        
+        self.view.backgroundColor = color
+        
+        //set button title color
+        
+        button.setTitleColor(color, for: .normal)
+        
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

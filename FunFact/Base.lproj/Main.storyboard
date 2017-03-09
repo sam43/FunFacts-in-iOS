@@ -23,57 +23,50 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1m-Lj-5vq">
-                                <rect key="frame" x="66" y="80" width="112" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ostriches run faster than horses but not tigers" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iae-G4-xhy">
-                                <rect key="frame" x="11" y="323" width="353" height="21"/>
+                                <rect key="frame" x="76" y="80" width="112" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPs-XX-zFf">
-                                <rect key="frame" x="66" y="552" width="243" height="30"/>
-                                <state key="normal" title="Show me the next fact  &gt;&gt;">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="92.5" y="540" width="189" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title=" Show me the next fact  &gt;&gt; ">
+                                    <color key="titleColor" red="0.1739596826" green="0.1739596826" blue="0.1739596826" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Joo-VJ-2vo"/>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o6l-x1-Dth"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="UM1-CI-LxL">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ostriches run faster than horses but not tigers" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iae-G4-xhy">
+                                <rect key="frame" x="80" y="313" width="215" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.17395968264248707" green="0.17395968264248707" blue="0.17395968264248707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="UPs-XX-zFf" secondAttribute="trailing" constant="50" id="DhR-IO-6N0"/>
-                            <constraint firstItem="iae-G4-xhy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="RhE-kt-Z3a"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="UPs-XX-zFf" secondAttribute="bottom" constant="85" id="Wif-VX-S8U"/>
-                            <constraint firstItem="UM1-CI-LxL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WuA-dO-W97"/>
-                            <constraint firstItem="iae-G4-xhy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XA0-f4-aLJ"/>
-                            <constraint firstItem="J1m-Lj-5vq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="bdg-O2-FoB"/>
-                            <constraint firstItem="UPs-XX-zFf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="cWd-jP-GuD"/>
-                            <constraint firstAttribute="trailing" secondItem="UM1-CI-LxL" secondAttribute="trailing" id="hw7-eM-OOk"/>
-                            <constraint firstItem="J1m-Lj-5vq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="lqP-7R-pXf"/>
-                            <constraint firstItem="UM1-CI-LxL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="so6-xD-Tkx"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="UM1-CI-LxL" secondAttribute="bottom" id="tMh-Hw-1va"/>
+                            <constraint firstItem="UPs-XX-zFf" firstAttribute="centerX" secondItem="iae-G4-xhy" secondAttribute="centerX" id="0z4-La-5N0"/>
+                            <constraint firstItem="J1m-Lj-5vq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="17z-Oc-fZr"/>
+                            <constraint firstItem="iae-G4-xhy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1Un-W2-ThG"/>
+                            <constraint firstAttribute="trailing" secondItem="iae-G4-xhy" secondAttribute="trailing" constant="80" id="6VU-Mn-Xtk"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="UPs-XX-zFf" secondAttribute="bottom" constant="97" id="Jdt-SV-9ar"/>
+                            <constraint firstItem="J1m-Lj-5vq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="60" id="LkI-NF-eLd"/>
+                            <constraint firstItem="iae-G4-xhy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="80" id="NRw-uo-LFh"/>
+                            <constraint firstItem="iae-G4-xhy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cZ5-by-rPM"/>
                         </constraints>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
-                        <outlet property="funFactlable" destination="iae-G4-xhy" id="asz-zj-RI3"/>
+                        <outlet property="button" destination="UPs-XX-zFf" id="8KR-AW-Alt"/>
+                        <outlet property="funFactlable" destination="iae-G4-xhy" id="Q7q-m1-s4k"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="100" y="123.68815592203899"/>
+            <point key="canvasLocation" x="96.799999999999997" y="117.39130434782609"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="bg" width="640" height="1136"/>
-    </resources>
 </document>
